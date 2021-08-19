@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente Title El componente deberia renderizar la etiqueta <h2 /> 1`] = `
+<div>
+  <div>
+    <h2 />
+  </div>
+</div>
+`;

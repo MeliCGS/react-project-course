@@ -18,13 +18,12 @@ const _handleResults = (results) => {
 
 const _handleSubmit = () => {
     Datos(search, _handleResults)
-    alert(search) 
 }
 
     return (
         <div>
-            <input onChange={_handleChange} type="text"/>
-            <button onClick={_handleSubmit}>Buscar</button>
+            <input role="input" onChange={_handleChange} placeholder="escriba aquí" type="text"/>
+            <button role="button" onClick={_handleSubmit}>Buscar</button>
             {
                 results.length === 0
                 ? <h1>Introduzca un título</h1>

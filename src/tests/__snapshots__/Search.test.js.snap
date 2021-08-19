@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente Search El componente Search se renderiza 1`] = `
+<div>
+  <div>
+    <input
+      placeholder="escriba aquí"
+      role="input"
+      type="text"
+    />
+    <button
+      role="button"
+    >
+      Buscar
+    </button>
+    <h1>
+      Introduzca un título
+    </h1>
+  </div>
+</div>
+`;

@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      <Title>React buscador de películas</Title>
+      <Title>Buscador de películas</Title>
       <Search resultSearch={_handleResultsSearch}/>
     </div>
   );
