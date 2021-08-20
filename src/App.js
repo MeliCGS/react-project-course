@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Detail from './pages/Detail'
 import Search from './components/Search'
 import Title from './components/Title'
+import Header from './components/Header'
 import './App.css';
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
 
   return (
     <div className="App">
-      <Title>Buscador de películas</Title>
+      <Header />
+      <Title>Todo lo que buscas en el mundo del entretenimiento</Title>
       <Search resultSearch={_handleResultsSearch}/>
     </div>
   );

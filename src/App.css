@@ -6,3 +6,14 @@
 .color {
   color: darkolivegreen;
 }
+
+.container {
+  display: flex;
+}
+
+.header {
+  width: 100%;
+  height: auto;
+  background-color: #8049CB;
+  color: #fff;
+}

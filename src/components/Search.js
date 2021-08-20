@@ -26,7 +26,7 @@ const _handleSubmit = () => {
             <button role="button" onClick={_handleSubmit}>Buscar</button>
             {
                 results.length === 0
-                ? <h1>Introduzca un título</h1>
+                ? <h3>Introduzca un título</h3>
                 : <ListMovie movies={results} />
             }
         </div>
