@@ -1,7 +1,7 @@
 function Title({children}) {
     return (
         <div>
-            <h2>{children}</h2>
+            <h2 className="text-intro">{children}</h2>
         </div>
     )
 }

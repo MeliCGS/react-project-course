@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import Header from '../components/Header';
 
 function Detail({id}) {
     const [ response, setResponse ] = useState({})
@@ -19,10 +20,11 @@ function Detail({id}) {
         window.history.back();
     }
     return (
-        <div>
-            <button onClick={_goBack}>Volver</button>
+        <div className="contentDetail">
+            <Header></Header>
+            <button onClick={_goBack} className="button-detail"><h3>Volver</h3></button>
             <h1>{Title}</h1>
-            <img src={Poster} alt={Title} />
+            <img src={Poster} alt={Title} className="detailMovie" />
             <h2>{Year}</h2>
             <h4>{Plot}</h4>
         </div>

@@ -5,18 +5,22 @@ function ListMovie(props) {
 
     const { movies } = props
     return (
-        movies.results.map(movie => {
-            return (
-                <div key={movie.imdbID}>
-                    <Movie 
-                        id={movie.imdbID}
-                        title={movie.Title}
-                        poster={movie.Poster}
-                        year={movie.Year}
-                    ></Movie>
-                </div>
-            )
-        })
+        <div className="MoviesList">
+            {
+                movies.results.map(movie => {
+                    return (
+                        <div key={movie.imdbID} className="MoviesList-item">
+                            <Movie 
+                                id={movie.imdbID}
+                                title={movie.Title}
+                                poster={movie.Poster}
+                                year={movie.Year}
+                            ></Movie>
+                        </div>
+                    )
+                })
+            }
+        </div>
     )
 }
 

@@ -13,9 +13,11 @@ exports[`Pruebas en el componente Search El componente Search se renderiza 1`] =
     >
       Buscar
     </button>
-    <h1>
+    <h3
+      class="text-intro"
+    >
       Introduzca un título
-    </h1>
+    </h3>
   </div>
 </div>
 `;

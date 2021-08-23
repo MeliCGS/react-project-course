@@ -17,3 +17,49 @@
   background-color: #8049CB;
   color: #fff;
 }
+
+.detailMovie {
+  width: 33%;
+  padding-top: 30px;
+}
+
+.contentDetail {
+  text-align: center;
+  color: #fff;
+  padding-bottom: 36px;
+}
+
+.MoviesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.MoviesList-item {
+  margin-bottom: 24px;
+  width: 48%;
+}
+
+.button-detail {
+  width: 20%;
+  border-radius: 5px;
+  background-color: #e2ba41;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.link-movie {
+  text-decoration: none;
+  color: #fff;
+}
+
+.text-intro {
+  color: #fff;
+}
+
+.main-title {
+  color: #fff;
+}

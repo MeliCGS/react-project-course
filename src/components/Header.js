@@ -4,7 +4,7 @@ const titleHeader = "Latino Movies"
 function Header({ titleHeader }) {
     return (
         <div className="container">
-            <div className="header">
+            <div  data-testid="headerClass" className="header">
                 <h2>Latino Movies</h2>
             </div>
         </div>
